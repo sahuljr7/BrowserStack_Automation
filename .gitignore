@@ -1,0 +1,223 @@
+# BStack Demo Automation Framework - Git Ignore File
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE Files
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Test Output
+test-output/
+test-results/
+reports/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+logs/
+*.log
+log/
+
+# ExtentReports
+extent-reports/
+ExtentReports/
+
+# Allure Results
+allure-results/
+allure-report/
+
+# TestNG
+test-output/
+testng-results.xml
+
+# Surefire Reports
+surefire-reports/
+
+# Failsafe Reports
+failsafe-reports/
+
+# WebDriver executables
+drivers/
+*.exe
+chromedriver*
+geckodriver*
+msedgedriver*
+operadriver*
+safaridriver*
+
+# Browser profiles
+browser-profiles/
+
+# Environment specific files
+config.local.properties
+local.properties
+environment.properties
+
+# Database files
+*.db
+*.sqlite
+*.h2.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# JaCoCo coverage reports
+*.exec
+jacoco.xml
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# Node modules (if any frontend tools are used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Kubernetes
+*.yaml
+*.yml
+
+# CI/CD
+.github/workflows/
+.gitlab-ci.yml
+Jenkinsfile
+
+# Security files
+*.p12
+*.jks
+*.keystore
+secrets.properties
+credentials.properties
+
+# Cache
+.cache/
+*.cache
+
+# Performance test results
+*.jmx
+*.jtl
+jmeter.log
+
+# API test collections
+*.postman_collection.json
+*.har
+
+# Mobile app files
+*.apk
+*.ipa
+*.app
+
+# Appium
+appium.log
+appium-server.log
+
+# BrowserStack/Sauce Labs logs
+browserstack.log
+saucelabs.log
+
+# Custom exclusions
+custom/
+local-test-data/
+personal-notes.md
